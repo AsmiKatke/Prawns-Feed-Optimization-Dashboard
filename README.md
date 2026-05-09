@@ -31,7 +31,8 @@ Want to run this dashboard on your own machine? Follow these exact copy-paste co
 ### 1. Create the Environment
 First, clone the repository and navigate into the folder:
 
-git clone [https://github.com/AsmiKatke/prawn-feed-optimization.git](https://github.com/AsmiKatke/Prawn-Feed-Optimization-Dashboard.git)
+git clone [https://github.com/AsmiKatke/Prawns-Feed-Optimization-Dashboard
+.git](https://github.com/AsmiKatke/Prawn-Feed-Optimization-Dashboard.git)
 cd prawn-feed-optimization
 
 ### 2. Install Dependencies
