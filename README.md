@@ -12,6 +12,8 @@
 
 ---
 
+LIVE WEBSITE AT : https://asmikatke.github.io/Prawns-Feed-Optimization-Dashboard/?v=3
+
 ## 🚀 Overview
 This application provides a smart, mathematical approach to aquaculture feed management. By calculating total biomass based on population and Average Body Weight (ABW), the dashboard dynamically optimizes daily feeding schedules to prevent overfeeding, reduce waste, and manage critical molting phases.
 
