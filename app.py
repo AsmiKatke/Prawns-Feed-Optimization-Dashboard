@@ -38,6 +38,32 @@ st.markdown("""
     .block-container {
         padding-top: 2rem;
     }
+    /* Sidebar text colors */
+    [data-testid="stSidebar"] {
+        color: #f8fafc !important;
+    }
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3, 
+    [data-testid="stSidebar"] h4, 
+    [data-testid="stSidebar"] h5, 
+    [data-testid="stSidebar"] h6,
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] .stWidgetLabel,
+    [data-testid="stSidebar"] .stWidgetLabel p,
+    [data-testid="stSidebar"] .stMarkdown p {
+        color: #f1f5f9 !important;
+    }
+    /* Keep input text dark and readable */
+    [data-testid="stSidebar"] input,
+    [data-testid="stSidebar"] select,
+    [data-testid="stSidebar"] textarea,
+    [data-testid="stSidebar"] button,
+    [data-testid="stSidebar"] [data-baseweb="input"] input {
+        color: #0f172a !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
