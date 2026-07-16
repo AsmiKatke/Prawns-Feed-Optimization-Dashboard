@@ -53,7 +53,13 @@ st.markdown("""
     [data-testid="stSidebar"] span,
     [data-testid="stSidebar"] .stWidgetLabel,
     [data-testid="stSidebar"] .stWidgetLabel p,
-    [data-testid="stSidebar"] .stMarkdown p {
+    [data-testid="stSidebar"] .stMarkdown p,
+    [data-testid="stSidebar"] [data-testid="stCheckbox"] p,
+    [data-testid="stSidebar"] [data-testid="stCheckbox"] span,
+    [data-testid="stSidebar"] [data-testid="stCheckbox"] label,
+    [data-testid="stSidebar"] [data-testid="stSlider"] p,
+    [data-testid="stSidebar"] [data-testid="stSlider"] label,
+    [data-testid="stSidebar"] [data-testid="stSlider"] span {
         color: #f1f5f9 !important;
     }
     /* Keep input text dark and readable */
@@ -61,7 +67,8 @@ st.markdown("""
     [data-testid="stSidebar"] select,
     [data-testid="stSidebar"] textarea,
     [data-testid="stSidebar"] button,
-    [data-testid="stSidebar"] [data-baseweb="input"] input {
+    [data-testid="stSidebar"] [data-baseweb="input"] input,
+    [data-testid="stSidebar"] [data-baseweb="input"] * {
         color: #0f172a !important;
     }
     </style>
