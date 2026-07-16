@@ -12,13 +12,28 @@ st.set_page_config(page_title="Prawn Feed Dashboard", layout="wide")
 st.markdown("""
     <style>
     .main {
-        background-color: #f7f9fc;
+        background-color: #f8fafc !important;
     }
     .stMetric {
-        background-color: white;
-        padding: 15px;
-        border-radius: 12px;
-        box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+        background-color: #ffffff !important;
+        padding: 20px !important;
+        border-radius: 16px !important;
+        box-shadow: 0px 4px 20px rgba(15, 23, 42, 0.05) !important;
+        border: 1px solid #e2e8f0 !important;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .stMetric:hover {
+        transform: translateY(-2px);
+        box-shadow: 0px 10px 25px rgba(15, 23, 42, 0.08) !important;
+    }
+    /* Explicit colors for metrics */
+    [data-testid="stMetricValue"] > div {
+        color: #0ea5e9 !important;
+        font-weight: 700 !important;
+    }
+    [data-testid="stMetricLabel"] > div {
+        color: #64748b !important;
+        font-weight: 500 !important;
     }
     .block-container {
         padding-top: 2rem;
